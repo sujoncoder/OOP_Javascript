@@ -37,11 +37,13 @@ class Footballer {
     };
 };
 
+// cricket player
+const player = new Player("Sujon", 25);
+console.log(player.getPlayerDetails())
 
 // cricket player
 const sakib = new Cricketer(12);
 console.log(sakib.getPlayerDetails());
-
 
 // football player
 const messi = new Footballer(780);
