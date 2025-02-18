@@ -1,28 +1,48 @@
 // INHERITANCE
 
+// PLAYER
+class Player {
+    #name
+    #age
+    constructor(name, age) {
+        this.#name = name;
+        this.#age = age;
+    };
+    getPlayerDetails() {
+        console.log(`Player name ${this.#name} and her age ${this.#age}`)
+    };
+};
+
+
 // CRICKETER
 class Cricketer {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
+    #centuries
+    constructor(centuries) {
+        this.#centuries = centuries;
+    };
+    getPlayerDetails() {
+        console.log("Total centuries ", this.#centuries)
     };
 };
 
 
 // FOOTBALLER
 class Footballer {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
+    #goals
+    constructor(goals) {
+        this.#goals = goals;
+    };
+    getPlayerDetails() {
+        console.log("Total goals ", this.#goals)
     };
 };
 
 
 // cricket player
-const sakib = new Cricketer("Sakib", 35);
-const tamim = new Cricketer("Tamim", 37);
-console.log(sakib, tamim);
+const sakib = new Cricketer(12);
+console.log(sakib.getPlayerDetails());
+
 
 // football player
-const messi = new Footballer("Messi", 39);
-console.log(messi);
+const messi = new Footballer(780);
+console.log(messi.getPlayerDetails());
