@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node new.js",
-    "dev": "nodemon new.js"
+    "start": "node prototype.js",
+    "dev": "nodemon prototype.js"
   },
   "keywords": [],
   "author": "",
