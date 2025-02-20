@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node polymorphism.js",
-    "dev": "nodemon polymorphism.js"
+    "start": "node new.js",
+    "dev": "nodemon new.js"
   },
   "keywords": [],
   "author": "",
