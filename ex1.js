@@ -1,6 +1,6 @@
 var name = "Sujon";
 
-function sayName{
+function sayName() {
     console.log(this.name)
 };
 
