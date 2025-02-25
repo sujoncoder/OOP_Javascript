@@ -4,13 +4,9 @@ function first() {
     var b = 2;
     function second() {
         var c = 3;
-        function third() {
-            var d = 4;
-            console.log(a + b + c + d);
-        };
-        return third;
+        console.log(a + b + c);
     };
-    return second();
+    return second;
 };
 
 var result = first();
