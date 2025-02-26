@@ -1,21 +1,14 @@
-var a = 1;
-
 function first() {
-    var b = 2;
+    var a = 1;
+    console.log(a)
+
     function second() {
-        var c = 3;
-        console.log(a + b + c);
+        var b = 2;
+        console.log(b)
     };
-    return second; // function referecne
+    return second;
 };
 
-var result = first();
+const result = first();
+console.log(result)
 result();
-
-function greet() {
-    console.log("Hello!");
-};
-
-// Function reference
-const funcRef = greet(); // No parentheses, so the function is not executed
-console.log(funcRef); // Output: [Function: greet]
